@@ -8,7 +8,11 @@ SECRET_KEY = 'django-insecure-7t8c5c7lw&af-je2vb5iqxq(ksv$bnps@3m6#fv!3i#m^9s!3)
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "attendx-backend-t42y.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Applications
